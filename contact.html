@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us — eMerge</title>
+    <meta name="description"
+        content="Get in touch with eMerge. Located in Columbia, Maryland, we're ready to answer your questions about our services and career opportunities.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar__logo" id="logo">
+                <svg class="navbar__logo-icon" viewBox="0 0 48 48" fill="none">
+                    <circle cx="24" cy="12" r="6" fill="#9e1b32" />
+                    <circle cx="12" cy="20" r="5" fill="#c4354e" />
+                    <circle cx="36" cy="20" r="5" fill="#c4354e" />
+                    <path d="M24 18 C24 18 16 24 16 32 C16 36 20 40 24 40 C28 40 32 36 32 32 C32 24 24 18 24 18Z"
+                        fill="#9e1b32" />
+                    <path d="M12 25 C12 25 6 29 6 35 C6 38 8 40 12 40 C16 40 16 36 16 34 C16 30 12 25 12 25Z"
+                        fill="#c4354e" opacity="0.8" />
+                    <path d="M36 25 C36 25 42 29 42 35 C42 38 40 40 36 40 C32 40 32 36 32 34 C32 30 36 25 36 25Z"
+                        fill="#c4354e" opacity="0.8" />
+                </svg>
+                <div class="navbar__logo-text">eMerge<span>Maryland's Choices For People With Disabilities</span></div>
+            </a>
+            <ul class="navbar__links" id="navLinks">
+                <li><a href="index.html" class="navbar__link">Home</a></li>
+                <li><a href="about.html" class="navbar__link">Who We Are</a></li>
+                <li><a href="services.html" class="navbar__link">Services</a></li>
+                <li><a href="contact.html" class="navbar__link active">Contact</a></li>
+            </ul>
+            <div class="navbar__actions">
+                <a href="contact.html" class="btn btn-donate btn-sm">❤️ Donate</a>
+                <button class="navbar__toggle" id="navToggle" aria-label="Toggle menu">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="6" x2="21" y2="6" />
+                        <line x1="3" y1="12" x2="21" y2="12" />
+                        <line x1="3" y1="18" x2="21" y2="18" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-hero__title fade-up">Contact Us</h1>
+            <p class="page-hero__subtitle fade-up">We'd love to hear from you. Reach out with questions about our
+                services, careers, or partnerships.</p>
+            <div class="page-hero__breadcrumb fade-up">
+                <a href="index.html">Home</a> <span>/</span> <span>Contact</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="content-grid">
+                <!-- Contact Form -->
+                <div class="fade-up">
+                    <span class="section-label">Get In Touch</span>
+                    <h2 class="section-title">Send Us a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" placeholder="Your first name"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" placeholder="Your last name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(410) 555-0123">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option value="">Select a topic...</option>
+                                <option value="services">Our Services</option>
+                                <option value="careers">Career Opportunities</option>
+                                <option value="volunteer">Volunteering</option>
+                                <option value="donate">Donations</option>
+                                <option value="partnership">Community Partnership</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="How can we help you?"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submitBtn">Send Message →</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="fade-up">
+                    <div class="contact-info-card" style="margin-bottom: var(--space-xl);">
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">📍</div>
+                            <div class="contact-info-text">
+                                <h4>Headquarters</h4>
+                                <p>Columbia, Maryland<br>Serving communities throughout MD</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">📞</div>
+                            <div class="contact-info-text">
+                                <h4>Phone</h4>
+                                <p><a href="tel:4108844420" style="color: var(--color-primary);">410-884-4420</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">✉️</div>
+                            <div class="contact-info-text">
+                                <h4>Email</h4>
+                                <p><a href="mailto:info@emergeinc.org"
+                                        style="color: var(--color-primary);">info@emergeinc.org</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">🌐</div>
+                            <div class="contact-info-text">
+                                <h4>Social Media</h4>
+                                <p>
+                                    <a href="https://www.facebook.com/eMergeInc" target="_blank"
+                                        style="color: var(--color-primary);">Facebook</a> ·
+                                    <a href="http://www.linkedin.com/company/emerge-inc" target="_blank"
+                                        style="color: var(--color-primary);">LinkedIn</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">🕐</div>
+                            <div class="contact-info-text">
+                                <h4>Office Hours</h4>
+                                <p>Monday – Friday: 9:00 AM – 5:00 PM<br>Residential services: 24/7</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Map -->
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49412.95876869!2d-76.87!3d39.21!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7dfb2eb0be73f%3A0xf3e3c2c3c3c3c3c3!2sColumbia%2C+MD!5e0!3m2!1sen!2sus!4v1234567890"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            title="eMerge location in Columbia, Maryland">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section--cream">
+        <div class="container">
+            <div class="cta-banner fade-up">
+                <div class="cta-banner__content">
+                    <h2 class="cta-banner__title">Explore Our Services</h2>
+                    <p class="cta-banner__text">Learn how eMerge supports individuals with disabilities through
+                        residential, employment, and day programs.
+                    </p>
+                </div>
+                <div class="cta-banner__actions">
+                    <a href="services.html" class="btn btn-white">View Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="index.html" class="navbar__logo" style="margin-bottom: var(--space-md);">
+                        <div class="navbar__logo-text" style="color: white;">eMerge<span
+                                style="color: rgba(255,255,255,0.5);">Maryland's Choices For People With
+                                Disabilities</span></div>
+                    </a>
+                    <p class="footer__brand-text">Supporting individuals with developmental, physical and mental health
+                        disabilities since 1984.</p>
+                    <div class="footer__social"><a href="https://www.facebook.com/eMergeInc" class="footer__social-link"
+                            target="_blank">f</a><a href="http://www.linkedin.com/company/emerge-inc"
+                            class="footer__social-link" target="_blank">in</a></div>
+                </div>
+                <div>
+                    <h3 class="footer__heading">Who We Are</h3>
+                    <ul class="footer__links">
+                        <li><a href="about.html" class="footer__link">Our Mission</a></li>
+                        <li><a href="about.html" class="footer__link">Leadership</a></li>
+                        <li><a href="about.html" class="footer__link">Our Story</a></li>
+                        <li><a href="about.html" class="footer__link">Awards</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__heading">Our Services</h3>
+                    <ul class="footer__links">
+                        <li><a href="services.html" class="footer__link">Residential</a></li>
+                        <li><a href="services.html" class="footer__link">Employment</a></li>
+                        <li><a href="services.html" class="footer__link">Day Services</a></li>
+                        <li><a href="services.html" class="footer__link">Businesses</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__heading">Connect</h3>
+                    <ul class="footer__links">
+                        <li><a href="contact.html" class="footer__link">Contact Us</a></li>
+                        <li><a href="#" class="footer__link">Events</a></li>
+                        <li><a href="#" class="footer__link">Donate</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2026 Emerge, Inc. All Rights Reserved.</p>
+                <p>Columbia, MD · 410-884-4420 · <a href="mailto:info@emergeinc.org"
+                        style="color: rgba(255,255,255,0.6);">info@emergeinc.org</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

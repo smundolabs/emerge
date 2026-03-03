@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eMerge — Maryland's Choices For People With Disabilities</title>
+  <meta name="description"
+    content="eMerge is a Maryland-based organization supporting individuals with developmental, physical and mental health disabilities. We serve more than 450 people in our community.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- ====== Navigation ====== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar__logo" id="logo">
+        <svg class="navbar__logo-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="24" cy="12" r="6" fill="#9e1b32" />
+          <circle cx="12" cy="20" r="5" fill="#c4354e" />
+          <circle cx="36" cy="20" r="5" fill="#c4354e" />
+          <path d="M24 18 C24 18 16 24 16 32 C16 36 20 40 24 40 C28 40 32 36 32 32 C32 24 24 18 24 18Z"
+            fill="#9e1b32" />
+          <path d="M12 25 C12 25 6 29 6 35 C6 38 8 40 12 40 C16 40 16 36 16 34 C16 30 12 25 12 25Z" fill="#c4354e"
+            opacity="0.8" />
+          <path d="M36 25 C36 25 42 29 42 35 C42 38 40 40 36 40 C32 40 32 36 32 34 C32 30 36 25 36 25Z" fill="#c4354e"
+            opacity="0.8" />
+        </svg>
+        <div class="navbar__logo-text">
+          eMerge
+          <span>Maryland's Choices For People With Disabilities</span>
+        </div>
+      </a>
+
+      <ul class="navbar__links" id="navLinks">
+        <li><a href="index.html" class="navbar__link active">Home</a></li>
+        <li><a href="about.html" class="navbar__link">Who We Are</a></li>
+        <li><a href="services.html" class="navbar__link">Services</a></li>
+        <li><a href="contact.html" class="navbar__link">Contact</a></li>
+      </ul>
+
+      <div class="navbar__actions">
+        <a href="contact.html" class="btn btn-donate btn-sm">
+          ❤️ Donate
+        </a>
+        <button class="navbar__toggle" id="navToggle" aria-label="Toggle menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ====== Hero Section ====== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="images/hero.jpg" alt="Caregivers and individuals in the community" loading="eager">
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="container">
+      <div class="hero__content fade-up">
+        <span class="hero__tagline">Serving Maryland Since 1984</span>
+        <h1 class="hero__title">Empowering Lives Through Compassionate Care</h1>
+        <p class="hero__description">
+          We support individuals with developmental, physical, and mental health disabilities
+          in choosing personally enriching paths to living and working in their communities.
+        </p>
+        <div class="hero__actions">
+          <a href="services.html" class="btn btn-white">Our Services →</a>
+          <a href="contact.html" class="btn btn-outline" style="border-color: rgba(255,255,255,0.4); color: white;">Get
+            in Touch</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat fade-up">
+        <span class="hero__stat-number">450+</span>
+        <span class="hero__stat-label">People Served</span>
+      </div>
+      <div class="hero__stat fade-up">
+        <span class="hero__stat-number">40+</span>
+        <span class="hero__stat-label">Years of Service</span>
+      </div>
+      <div class="hero__stat fade-up">
+        <span class="hero__stat-number">100%</span>
+        <span class="hero__stat-label">Committed</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Services Section ====== -->
+  <section class="section section--cream" id="services">
+    <div class="container text-center">
+      <span class="section-label fade-up">What We Do</span>
+      <h2 class="section-title fade-up">Our Core Services</h2>
+      <p class="section-subtitle fade-up">
+        We provide a comprehensive range of support services designed to help individuals
+        live enriching, independent lives in their communities.
+      </p>
+
+      <div class="services-grid">
+        <div class="service-card fade-up" id="card-residential">
+          <div class="service-card__image">
+            <img src="images/residential.jpg" alt="Residential Services">
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                <polyline points="9 22 9 12 15 12 15 22" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Residential Services</h3>
+            <p class="service-card__text">
+              Safe, welcoming homes where individuals receive personalized support
+              while living as independently as possible.
+            </p>
+            <a href="services.html" class="service-card__link">Learn More →</a>
+          </div>
+        </div>
+
+        <div class="service-card fade-up" id="card-employment">
+          <div class="service-card__image">
+            <img src="images/employment.jpg" alt="Employment Support">
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Employment Support</h3>
+            <p class="service-card__text">
+              Job training, placement, and ongoing coaching to help individuals
+              find meaningful employment in the community.
+            </p>
+            <a href="services.html" class="service-card__link">Learn More →</a>
+          </div>
+        </div>
+
+        <div class="service-card fade-up" id="card-day-services">
+          <div class="service-card__image">
+            <img src="images/day-services.jpg" alt="Day Services">
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Day Services</h3>
+            <p class="service-card__text">
+              Engaging daytime programs including life skills, recreation, arts,
+              and community integration activities.
+            </p>
+            <a href="services.html" class="service-card__link">Learn More →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Mission Section ====== -->
+  <section class="section" id="mission">
+    <div class="container">
+      <div class="mission">
+        <div class="mission__image fade-up">
+          <img src="images/whoweare.jpg" alt="Emerge community members">
+          <div class="mission__image-badge">
+            <div class="mission__image-badge-icon">🏆</div>
+            <div class="mission__image-badge-text">
+              Award-Winning
+              <span>CARF Accredited Agency</span>
+            </div>
+          </div>
+        </div>
+        <div class="mission__content fade-up">
+          <span class="section-label">Who We Are</span>
+          <h2 class="section-title">We Don't Give Up on Anyone</h2>
+          <p class="section-subtitle">
+            eMerge is a Maryland-based organization supporting individuals with developmental,
+            physical and mental health disabilities. Today we serve more than 450 people,
+            many of them rejected by other agencies.
+          </p>
+          <p class="section-subtitle" style="margin-top: var(--space-md);">
+            We encourage individuals entrusted to the eMerge family to choose personally
+            enriching paths to living and working in their communities.
+          </p>
+          <div class="mission__values">
+            <div class="mission__value">
+              <div class="mission__value-icon">✓</div>
+              <span>Person-Centered Care</span>
+            </div>
+            <div class="mission__value">
+              <div class="mission__value-icon">✓</div>
+              <span>Community Integration</span>
+            </div>
+            <div class="mission__value">
+              <div class="mission__value-icon">✓</div>
+              <span>Dedicated Team</span>
+            </div>
+            <div class="mission__value">
+              <div class="mission__value-icon">✓</div>
+              <span>Family Partnership</span>
+            </div>
+          </div>
+          <a href="about.html" class="btn btn-primary" style="margin-top: var(--space-xl);">Learn Our Story →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Testimonial Section ====== -->
+  <section class="section section--cream" id="testimonials">
+    <div class="container text-center">
+      <span class="section-label fade-up">Testimonials</span>
+      <h2 class="section-title fade-up">Voices From Our Family</h2>
+
+      <div class="testimonial-card fade-up">
+        <p class="testimonial-card__text">
+          "The staff at eMerge treat my son like family. They see his potential, not his limitations.
+          Since joining the program, he has a job he loves, friends who care about him,
+          and a life filled with joy and purpose."
+        </p>
+        <div class="testimonial-card__author">
+          <div class="testimonial-card__avatar">MJ</div>
+          <div class="testimonial-card__author-info">
+            <div class="testimonial-card__name">Maria Johnson</div>
+            <div class="testimonial-card__role">Parent & Advocate</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CTA / Join Banner ====== -->
+  <section class="section" id="join">
+    <div class="container">
+      <div class="cta-banner fade-up">
+        <div class="cta-banner__content">
+          <h2 class="cta-banner__title">Join the eMerge Family</h2>
+          <p class="cta-banner__text">
+            We're always looking for compassionate, dedicated people to join our team.
+            Make a real difference in the lives of individuals in our community.
+          </p>
+        </div>
+        <div class="cta-banner__actions">
+          <a href="contact.html" class="btn btn-white">Get in Touch</a>
+          <a href="services.html" class="btn btn-outline" style="border-color: rgba(255,255,255,0.4); color: white;">Our
+            Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Footer ====== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="navbar__logo" style="margin-bottom: var(--space-md);">
+            <div class="navbar__logo-text" style="color: white;">
+              eMerge
+              <span style="color: rgba(255,255,255,0.5);">Maryland's Choices For People With Disabilities</span>
+            </div>
+          </a>
+          <p class="footer__brand-text">
+            Supporting individuals with developmental, physical and mental health disabilities
+            since 1984. We serve more than 450 people throughout Maryland.
+          </p>
+          <div class="footer__social">
+            <a href="https://www.facebook.com/eMergeInc" class="footer__social-link" aria-label="Facebook"
+              target="_blank">f</a>
+            <a href="http://www.linkedin.com/company/emerge-inc" class="footer__social-link" aria-label="LinkedIn"
+              target="_blank">in</a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="footer__heading">Who We Are</h3>
+          <ul class="footer__links">
+            <li><a href="about.html" class="footer__link">Our Mission</a></li>
+            <li><a href="about.html" class="footer__link">Leadership</a></li>
+            <li><a href="about.html" class="footer__link">The Emerge Story</a></li>
+            <li><a href="about.html" class="footer__link">Awards</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__heading">Our Services</h3>
+          <ul class="footer__links">
+            <li><a href="services.html" class="footer__link">Residential</a></li>
+            <li><a href="services.html" class="footer__link">Employment Support</a></li>
+            <li><a href="services.html" class="footer__link">Day Services</a></li>
+            <li><a href="services.html" class="footer__link">Our Businesses</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__heading">Connect</h3>
+          <ul class="footer__links">
+            <li><a href="contact.html" class="footer__link">Contact Us</a></li>
+            <li><a href="#" class="footer__link">Events</a></li>
+            <li><a href="#" class="footer__link">Donate</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2026 Emerge, Inc. All Rights Reserved.</p>
+        <p>Columbia, MD · 410-884-4420 · <a href="mailto:info@emergeinc.org"
+            style="color: rgba(255,255,255,0.6);">info@emergeinc.org</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
