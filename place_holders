@@ -1,0 +1,61 @@
+
+ <!-- Leadership -->
+    <section class="section">
+        <div class="container text-center">
+            <span class="section-label fade-up">Leadership</span>
+            <h2 class="section-title fade-up">Meet Our Team</h2>
+            <p class="section-subtitle fade-up">
+                Our leadership team brings decades of experience and a shared commitment
+                to empowering every individual we serve.
+            </p>
+
+            <div class="team-grid">
+                <div class="team-card fade-up">
+                    <div class="team-card__avatar">ED</div>
+                    <div class="team-card__name">Executive Director</div>
+                    <div class="team-card__role">Chief Executive Officer</div>
+                </div>
+                <div class="team-card fade-up">
+                    <div class="team-card__avatar">DD</div>
+                    <div class="team-card__name">Director of Services</div>
+                    <div class="team-card__role">Residential & Day Programs</div>
+                </div>
+                <div class="team-card fade-up">
+                    <div class="team-card__avatar">HR</div>
+                    <div class="team-card__name">HR Director</div>
+                    <div class="team-card__role">Professional Services</div>
+                </div>
+                <div class="team-card fade-up">
+                    <div class="team-card__avatar">QA</div>
+                    <div class="team-card__name">Quality Assurance</div>
+                    <div class="team-card__role">Compliance & Accreditation</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+       <!-- ====== Testimonial Section ====== -->
+      <p section class="section section--cream" id="testimonials">
+        <div class="container text-center">
+          <span class="section-label fade-up">Testimonials</span>
+          <h2 class="section-title fade-up">Voices From Our Family</h2>
+
+          <div class="testimonial-card fade-up">
+            <p class="testimonial-card__text">
+              "The staff at eMerge treat my son like family. They see his potential, not his limitations.
+              Since joining the program, he has a job he loves, friends who care about him,
+              and a life filled with joy and purpose."
+            </p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">MJ</div>
+              <div class="testimonial-card__author-info">
+                <div class="testimonial-card__name">Maria Johnson</div>
+                <div class="testimonial-card__role">Parent & Advocate</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </psection>
