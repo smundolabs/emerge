@@ -59,3 +59,125 @@
           </div>
         </div>
       </psection>
+
+
+
+
+         <!-- ====== CEO Section ====== -->
+            <p section class="section section--cream" id="ceo">
+              <div class="container text-center">
+                <span class="section-label fade-up"></span>
+                <h2 class="section-title fade-up">Words From Our CEO</h2>
+
+                <div class="testimonial-card fade-up">
+                  <p class="testimonial-card__text">
+                  "Emerge is ready to move into its next 50 years, our forward thinking and can develop its own identity in service provision.
+                   We've built a great foundation and have solid future leaders are ready to take the mantle from the leaders of the first 50 years"
+                  </p>
+                  <div class="testimonial-card__author">
+                    <div class="testimonial-card__avatar">MJ</div>
+                    <div class="testimonial-card__author-info">
+                      <div class="testimonial-card__name">Maria Johnson</div>
+                      <div class="testimonial-card__role">Parent & Advocate</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </psection>
+
+
+
+            <section class="timeline">
+              <div class="timeline-item">
+                <button class="year">1976</button>
+                <div class="content">
+                  <h3>The Beginning of Our Legacy</h3>
+                  <p>The Articles of Incorporation are filed for
+                  the Maryland Homes for the Retarded on December 6th 1976</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <button class="year">1979/button>
+                <div class="content">
+                  <h3>Establishing Leadership</h3>
+                  <img src="images/mdmayors.png">
+                  <p>Maryland Homes for the Retarded changes its name to Maryland Homes for the Handicapped.
+                     Rev. David Michel, Jack Merriman, and Charles Helm are the founding directors.</p>
+                </div>
+                  <p>Jack Merriman convinces Baltimore City to give the Mayor’s Residence on
+                     Maryland Ave to Maryland Homes.</p>
+              </div>
+
+              <div class="timeline-item">
+                <button class="year">1980</button>
+                <div class="content">
+                  <h3>Astor Courts</h3>
+                  <img src="images/astorcourts.png">
+                  <p>Rev Michel and Charles Helms) convinces St Marks Lutheran Church
+                   to use its endowment ($500,000) to purchase Astor Courts on 25th and St. Paul
+                   to create housing for people from Rosewood.</p>
+                </div>
+              </div>
+            </section>
+
+
+
+
+            <!-- OG Story Timeline -->
+        <div class="services-grid" style="margin-top: var(--space-2xl);">
+                 <div class="service-card fade-up">
+                     <div class="service-card__body">
+                         <div class="service-card__icon">
+                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2">
+                                 <circle cx="12" cy="12" r="10" />
+                                 <polyline points="12 6 12 12 16 14" />
+                             </svg>
+                         </div>
+                         <h3 class="service-card__title">1976</h3>
+                         <p class="service-card__text">
+                             eMerge was founded with a simple but powerful belief: that every individual
+                             with a disability deserves the chance to live a full, rich life.
+                         </p>
+                     </div>
+                 </div>
+
+                 <div class="service-card fade-up">
+                     <div class="service-card__body">
+                         <div class="service-card__icon">
+                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2">
+                                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                 <circle cx="9" cy="7" r="4" />
+                                 <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                 <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                             </svg>
+                         </div>
+                         <h3 class="service-card__title">Growing Family</h3>
+                         <p class="service-card__text">
+                             Over the decades, we expanded our services from residential support to include
+                             employment, day programs, and community-based businesses.
+                         </p>
+                     </div>
+                 </div>
+
+                 <div class="service-card fade-up">
+                     <div class="service-card__body">
+                         <div class="service-card__icon">
+                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2">
+                                 <polygon
+                                     points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                             </svg>
+                         </div>
+                         <h3 class="service-card__title">Today</h3>
+                         <p class="service-card__text">
+                             Now serving 450+ individuals across Maryland, eMerge is CARF accredited
+                             and recognized for excellence in person-centered care.
+                         </p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>

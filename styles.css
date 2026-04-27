@@ -1018,7 +1018,7 @@ h1, h2, h3, h4, h5, h6 {
    Interior Page Hero
    =================================== */
 .page-hero {
-  background: linear-gradient(135deg, var(--color-primary-dark), var(--color-primary));
+  background: linear-gradient(135deg, var(--color-primary-dark), var(--color-primary-dark));
   padding: var(--space-5xl) 0 var(--space-3xl);
   margin-top: var(--nav-height);
   text-align: center;
@@ -1378,7 +1378,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.6;
 }
 
-/* Stats bar */
+/* stats bar */
 .stats-bar {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1410,7 +1410,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Map Embed */
+/* map embed */
 .map-container {
   border-radius: var(--radius-lg);
   overflow: hidden;
@@ -1422,4 +1422,69 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 40px 0;
+  border-top: 3px solid #333;
+}
+
+.timeline-item {
+  position: relative;
+  text-align: center;
+  width: 30%;
+}
+
+.year {
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  background: #7B1E2D;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+}
+
+/* hidden by default */
+.content {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+/* hover support (desktop) */
+.timeline-item:hover .content {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* click support */
+.timeline-item.active .content {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* highlight active year */
+.timeline-item.active .year {
+  background: #007bff;
+}
+
+.content img {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
 }

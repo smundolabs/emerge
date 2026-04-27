@@ -1,5 +1,5 @@
 // ===================================
-// eMerge Modern Site — Main JS
+// eMerge — Main JS
 // ===================================
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ---- Scroll reveal animations ----
+  // ---- Scroll animations ----
   const fadeEls = document.querySelectorAll('.fade-up');
   if (fadeEls.length > 0) {
     const observer = new IntersectionObserver((entries) => {
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fadeEls.forEach(el => observer.observe(el));
   }
 
-  // ---- Active nav link based on current page ----
+  // ---- Active nav link of current page ----
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.navbar__link').forEach(link => {
     const href = link.getAttribute('href');
