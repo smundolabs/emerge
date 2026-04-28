@@ -760,6 +760,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+
 /* ===================================
    Testimonial Section
    =================================== */
@@ -1535,3 +1537,17 @@ h1, h2, h3, h4, h5, h6 {
 .dropdown-menu a:hover {
   background: #f5f5f5;
 }
+
+
+.ceo__tagline {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--color-accent-gold-light);
+  margin-bottom: var(--space-lg);
+  padding: var(--space-sm) var(--space-lg);
+  background: rgba(255,255,255,0.08);
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(212, 168, 67, 0.3);
