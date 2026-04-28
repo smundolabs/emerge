@@ -181,3 +181,9 @@
              </div>
          </div>
      </section>
+
+
+<---Donate Button--->
+        <a href="contact.html" class="btn btn-donate btn-sm">
+          ❤️ Donate
+        </a>
