@@ -1,6 +1,4 @@
-/* ===================================
-   eMerge Design System
-   =================================== */
+/* CSS */
 
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap');
@@ -183,9 +181,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
-/* ===================================
-   Buttons
-   =================================== */
+/* Buttons */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -276,9 +272,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.875rem;
 }
 
-/* ===================================
-   Nav
-   =================================== */
+/* Nav */
 .navbar {
   position: fixed;
   top: 0;
@@ -429,9 +423,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* ===================================
-   Hero Section
-   =================================== */
+/* Hero */
+
 .hero {
   position: relative;
   min-height: 90vh;
@@ -569,9 +562,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* ===================================
-   Services Cards
-   =================================== */
+/* Services */
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -661,9 +653,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* ===================================
-   Mission / About Section
-   =================================== */
+/* About */
 .mission {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -762,9 +752,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-/* ===================================
-   Testimonial Section
-   =================================== */
+/* Testimonial */
 .testimonial-card {
   background: var(--color-white);
   border-radius: var(--radius-lg);
@@ -830,9 +818,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-text-light);
 }
 
-/* ===================================
-   CTA Banner
-   =================================== */
+/* Banner */
 .cta-banner {
   background: linear-gradient(135deg, var(--color-primary-dark), var(--color-primary));
   border-radius: var(--radius-xl);
@@ -911,9 +897,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* ===================================
-   Footer
-   =================================== */
+/* Footer */
 .footer {
   background: var(--color-text);
   color: rgba(255,255,255,0.8);
@@ -1017,9 +1001,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* ===================================
-   Interior Page Hero
-   =================================== */
+/* Hero page */
 .page-hero {
   background: linear-gradient(135deg, var(--color-primary-dark), var(--color-primary-dark));
   padding: var(--space-5xl) 0 var(--space-3xl);
@@ -1073,9 +1055,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-accent-gold-light);
 }
 
-/* ===================================
-   Content Page Styles
-   =================================== */
+/* Content Styles */
 .content-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1114,9 +1094,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* ===================================
-   Team / Leadership Cards
-   =================================== */
+/* Leadership (TBA) */
+
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -1165,9 +1144,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: var(--space-xs);
 }
 
-/* ===================================
-   Job Listings (Careers Page)
-   =================================== */
+/* Openings (TBA) */
 .job-card {
   background: var(--color-white);
   border-radius: var(--radius-md);
@@ -1224,9 +1201,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* ===================================
-   Contact Form
-   =================================== */
+/* Contact Us */
 .contact-form {
   max-width: 600px;
 }
@@ -1325,9 +1300,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
 }
 
-/* ===================================
-   Scroll animations
-   =================================== */
+/* Scrolling animation */
 .fade-up {
   opacity: 0;
   transform: translateY(30px);
@@ -1339,9 +1312,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(0);
 }
 
-/* ===================================
-   Misc 
-   =================================== */
+/* etc */
 .benefits-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -1493,7 +1464,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-<----Employees---->
+/* Employees */
 
  .dropdown {
    position: relative;
